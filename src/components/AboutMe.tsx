@@ -26,7 +26,7 @@ const AboutMe = ({ isLightMode }: { isLightMode: boolean }) => {
           <div className={`relative aspect-[3/4] rounded-2xl overflow-hidden border shadow-2xl transition-all duration-[1500ms] group-hover:-translate-y-2 ${isLightMode ? 'border-white/50 bg-white/50 group-hover:border-blue-500/50' : 'border-zinc-800 bg-zinc-900/50 group-hover:border-blue-500/50'}`}>
             {/* Profile Picture */}
             <img 
-              src="profile.jpg" 
+              src=".profile.jpg" 
               alt="Ian Charles M. Aquino" 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
