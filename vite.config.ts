@@ -8,7 +8,7 @@ export default defineConfig(({mode}) => {
   
   return {
     // This ensures your assets load correctly on GitHub Pages
-    base: '/Aquino-Final_Project/', 
+    base: './', 
     
     plugins: [
       react(), 
